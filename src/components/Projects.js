@@ -1,5 +1,4 @@
 import React from "react";
-import shopihomepage from "../img/shopihomepage.png";
 
 export const Projects = () => {
 
