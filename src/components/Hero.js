@@ -21,6 +21,7 @@ export const Hero = () => {
                 <img src={PostgresImg} alt="postgres" className="h-24 w-24" />
                 <img src={PostgresImg} alt="postgres" className="h-24 w-24" />
                 <img src={PostgresImg} alt="postgres" className="h-24 w-24" />
+                <img src={PostgresImg} alt="postgres" className="h-24 w-24" />
             </div>
         </div>
     )
