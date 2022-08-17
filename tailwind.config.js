@@ -10,7 +10,10 @@ module.exports = {
           400: '#110F12',
         },
     },
+    backgroundImage: {
+      'hero-pattern': "url('/src/img/Banding.png')",
   },
+},
 },
   plugins: [],
 }
