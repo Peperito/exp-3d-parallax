@@ -19,7 +19,7 @@ export const Hero = () => {
             </div>
 
             <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 4}}>
-            <div className="flex flex-row flex-wrap xl:my-24 mx-12 mr-14 p-6 bg-white bg-opacity-20 rounded-md shadow-md max-w-sm">
+            <div className="flex flex-row flex-wrap mb-4 xl:my-24 mx-12 mr-14 p-6 bg-white bg-opacity-20 rounded-md shadow-md max-w-sm">
                 <button className="hover:bg-white rounded-xl hover:bg-opacity-20">
                     <img src={redisimg} alt="redis" className="h-12 w-12 xl:h-20 xl:w-20 mx-2 my-2" /> 
                 </button>
