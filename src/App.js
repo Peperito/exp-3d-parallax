@@ -22,7 +22,7 @@ function App() {
     !loading &&
     <AnimatePresence>
       <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}}>
-         <main className="bg-hero-pattern bg-cover bg-no-repeat bg-center h-screen w-screen overflow-auto transition-all">
+         <main className="bg-hero-pattern bg-cover bg-no-repeat bg-center overflow-visible h-auto w-auto transition-all">
           <NavBar />
           <Hero />
 
