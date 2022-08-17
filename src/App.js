@@ -6,7 +6,7 @@ import Hero from './components/Hero';
 function App() {
 
   return (
-    <main className="bg-hero-pattern bg-cover bg-no-repeat bg-center h-screen w-screen">
+    <main className="bg-hero-pattern bg-cover bg-no-repeat bg-center h-screen w-screen overflow-auto">
       <NavBar />
       <Hero />
 

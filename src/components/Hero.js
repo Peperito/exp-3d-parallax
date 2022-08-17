@@ -7,7 +7,7 @@ export const Hero = () => {
 
     return (
         <div className="flex xl:flex-row flex-col justify-start ">
-            <div className="scale-50 xl:scale-75 -translate-x-20 xl:-translate-x-12 border" >
+            <div className="scale-50 xl:scale-75 -translate-x-20 xl:-translate-x-12" >
                 <Spline scene="https://prod.spline.design/PeoY1AdyiFikuqYF/scene.splinecode" />
             </div>
             <div className="flex flex-row flex-wrap xl:m-24">
