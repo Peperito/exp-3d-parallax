@@ -1,5 +1,9 @@
 # My first Portfolio
 
+
+https://glowing-platypus-1df0a6.netlify.app/
+
+
 ## The goal of this project is to create a portfolio involving 3d animations.
 
 ### This will be a React, only fontend project, the 3d animation will with Spline.
