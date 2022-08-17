@@ -15,7 +15,7 @@ function App() {
     setTimeout(() => {
       loader.style.display="none"
       setLoading(false)
-    }, 2000)
+    }, 1500)
   }
 
   return (
