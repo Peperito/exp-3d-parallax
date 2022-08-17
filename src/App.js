@@ -2,11 +2,23 @@ import './App.css';
 import Spline from '@splinetool/react-spline';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
+import React, {useState} from 'react';
 
 function App() {
 
+  const [loading, setLoading] = useState(true);
+
+  const loader = document.getElementById("loader");
+
+  if(loader){
+    setTimeout(() => {
+      loader.style.display="none"
+      setLoading(false)
+    }, 2000)
+  }
+
   return (
-    <main className="bg-hero-pattern bg-cover bg-no-repeat bg-center h-screen w-screen overflow-auto">
+    !loading && <main className="bg-hero-pattern bg-cover bg-no-repeat bg-center h-screen w-screen overflow-auto transition-all">
       <NavBar />
       <Hero />
 

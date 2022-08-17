@@ -12,17 +12,6 @@ export const Hero = () => {
                 <Spline scene="https://prod.spline.design/PeoY1AdyiFikuqYF/scene.splinecode" />
                 </div>
             </div>
-            <div className="flex flex-row flex-wrap xl:m-24">
-                <img src={PostgresImg} alt="postgres" className="h-24 w-24" />
-                <img src={nodeimg} alt="node" className="h-24 w-24" />
-                <img src={PostgresImg} alt="postgres" className="h-20 w-20" />
-                <img src={PostgresImg} alt="postgres" className="h-20 w-20" />
-                <img src={PostgresImg} alt="postgres" className="h-20 w-20" />
-                <img src={PostgresImg} alt="postgres" className="h-20 w-20" />
-                <img src={PostgresImg} alt="postgres" className="h-20 w-20" />
-                <img src={PostgresImg} alt="postgres" className="h-20 w-20" />
-                <img src={PostgresImg} alt="postgres" className="h-20 w-20" />
-            </div>
         </div>
     )
 }
