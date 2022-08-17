@@ -1,7 +1,6 @@
 import React from "react";
 import Spline from '@splinetool/react-spline';
-import PostgresImg from "../img/postgres.png";
-import nodeimg from "../img/node.png";
+
 
 export const Hero = () => {
 
