@@ -115,14 +115,14 @@ export const Hero = () => {
         if(selection !== 'none'){
             return(
             <div className="flex flex-row bg-white bg-opacity-20 rounded-md shadow-md max-h-28 m-6">
-            <button className="hover:bg-white flex justify-center rounded-xl hover:bg-opacity-20" onClick={() => setSelection('redis')} >
-                <img src={redisimg} alt="redis" className="h-12 w-12 xl:h-20 xl:w-20 mx-2 my-2 s" /> 
+            <button className="hover:bg-white flex justify-center rounded-xl hover:bg-opacity-20 px-1" onClick={() => setSelection('redis')} >
+                <img src={redisimg} alt="redis" className="h-12 w-12 xl:h-20 xl:w-20 mx-2 my-2" /> 
             </button>
             <button className="hover:bg-white flex justify-center rounded-xl hover:bg-opacity-20" onClick={() => setSelection('postgres')}>
                 <img src={PostgresImg} alt="postgres" className="h-12 w-12 xl:h-20 xl:w-20 mx-4 mt-4 my-2" /> 
             </button>
             <button className="hover:bg-white flex justify-center rounded-xl hover:bg-opacity-20" onClick={() => setSelection('node')}>
-                <img src={nodeimg} alt="node" className="h-12 w-12 xl:h-20 xl:w-20 mx-2 my-2 " /> 
+                <img src={nodeimg} alt="node" className="h-12 w-12 xl:h-20 xl:w-20 mx-2 my-2 ml-4" /> 
             </button>
             <button className="hover:bg-white flex justify-center rounded-xl hover:bg-opacity-20" onClick={() => setSelection('react')} >
                 <img src={reactimg} alt="react" className="h-12 w-12 xl:h-20 xl:w-20 mx-2 my-2"  /> 
