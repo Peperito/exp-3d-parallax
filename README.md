@@ -1,7 +1,7 @@
 # My first Portfolio
 
+https://vincep-portfolio.netlify.app/
 
-https://glowing-platypus-1df0a6.netlify.app/
 
 
 ## The goal of this project is to create a portfolio involving 3d animations.
