@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import { Loader } from './components/Loader';
 import ParallaxBox from './components/ParallaxBox';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -30,19 +31,23 @@ function App() {
           <NavBar />
           <Hero />
 
-        <div className="invisible xl:visible fixed bottom-1 right-1 group scale-50 group translate-x-12 translate-y-12 z-50">
-        <Spline scene="https://prod.spline.design/o2HsbLEwYAeyvbde/scene.splinecode" />
-        <p className="invisible xl:visible transition-all text-center scale-0 group-hover:scale-100 bg-orange-200 text-slate-900 fixed bottom-10 right-48 p-6 rounded-md shadow-md w-48">
+          <div className="invisible xl:visible fixed bottom-1 right-1 group scale-50 group translate-x-12 translate-y-12 z-50">
+          <Spline scene="https://prod.spline.design/o2HsbLEwYAeyvbde/scene.splinecode" />
+          <p className="invisible xl:visible transition-all text-center scale-0 group-hover:scale-100 bg-orange-200 text-slate-900 fixed bottom-10 right-48 p-6 rounded-md shadow-md w-48">
           Currently learning more about 3D!
-        </p>
-        </div>
+          </p>
+          </div>
         </main>
+
         <div className="z-20">
         <Projects />
         </div>
+
         <ParallaxProvider>
           <ParallaxBox />
         </ParallaxProvider>
+        
+        <Footer />
       </motion.div>
     </AnimatePresence>
   );

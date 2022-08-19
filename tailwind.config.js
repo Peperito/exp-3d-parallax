@@ -14,7 +14,8 @@ module.exports = {
       'hero-pattern': "url('/src/img/Banding.png')",
     },
     height: {
-      'half-screen': '50vh',
+      'half-screen': '60vh',
+      'giant': '80vh',
     }
 },
 },

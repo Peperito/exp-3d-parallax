@@ -4,7 +4,7 @@ import { Parallax } from 'react-scroll-parallax';
 export const ParallaxBox = () => {
 
       return (
-        <div className="flex items-center justify-center bg-hero-pattern bg-cover bg-center h-screen bg-no-repeat ">
+        <div className="flex items-center justify-center bg-hero-pattern bg-cover bg-center h-screen bg-no-repeat overflow-hidden">
           <Parallax speed={-10}>
             <div className="h-32 w-32 bg-slate-100 rounded-lg shadow-md m-12">
              1
