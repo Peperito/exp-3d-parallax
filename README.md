@@ -3,7 +3,7 @@
 https://vincep-portfolio.netlify.app/
 
 
-
+Work In Progress
 ## The goal of this project is to create a portfolio involving 3d animations.
 
 ### This will be a React, only fontend project, the 3d animation will with Spline.
