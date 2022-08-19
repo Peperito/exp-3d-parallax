@@ -9,6 +9,18 @@ module.exports = {
         superdark:{
           400: '#110F12',
         },
+        salmon:{
+          400: '#f87c6c',
+        },
+        darkBlue:{
+          400: '#081434'
+        },
+        specialPurple:{
+          400: '#681cc4'
+        },
+        specialIndigo:{
+          400: '#b01cec'
+        }
     },
     backgroundImage: {
       'hero-pattern': "url('/src/img/Banding.png')",
