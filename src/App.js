@@ -6,6 +6,8 @@ import React, {useState} from 'react';
 import {AnimatePresence, motion} from "framer-motion";
 import Projects from './components/Projects';
 import { Loader } from './components/Loader';
+import ParallaxBox from './components/ParallaxBox';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
 
@@ -38,6 +40,9 @@ function App() {
         <div className="z-20">
         <Projects />
         </div>
+        <ParallaxProvider>
+          <ParallaxBox />
+        </ParallaxProvider>
       </motion.div>
     </AnimatePresence>
   );

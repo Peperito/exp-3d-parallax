@@ -74,7 +74,7 @@ export const Projects = () => {
     }
 
     return (
-        <div className="max-h-screen">
+        <div className="max-h-screen my-6">
         <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 2}}>
             <ProjectButton />
             <Shopifast />
