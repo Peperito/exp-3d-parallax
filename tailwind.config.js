@@ -12,7 +12,10 @@ module.exports = {
     },
     backgroundImage: {
       'hero-pattern': "url('/src/img/Banding.png')",
-  },
+    },
+    height: {
+      'half-screen': '50vh',
+    }
 },
 },
   plugins: [],

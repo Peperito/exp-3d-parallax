@@ -5,25 +5,25 @@ import Hero from './components/Hero';
 import React, {useState} from 'react';
 import {AnimatePresence, motion} from "framer-motion";
 import Projects from './components/Projects';
+import { Loader } from './components/Loader';
 
 function App() {
 
   const [loading, setLoading] = useState(true);
 
-  const loader = document.getElementById("loader");
+  setTimeout(() => {
+    setLoading(false)
+  }, 2000);
 
-  if(loader){
-    setTimeout(() => {
-      loader.style.display="none"
-      setLoading(false)
-    }, 1800)
+  if(loading){
+    return (
+      <Loader loading={loading} />
+    )
   }
 
   return (
-    !loading &&
     <AnimatePresence>
       <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}}>
-      
          <main className="bg-hero-pattern bg-cover bg-no-repeat bg-center overflow-x-hidden h-auto w-auto transition-all">
           <NavBar />
           <Hero />
