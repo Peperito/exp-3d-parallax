@@ -28,6 +28,9 @@ module.exports = {
     height: {
       'half-screen': '60vh',
       'giant': '80vh',
+    },
+    maxHeight: {
+      '128': '32rem',
     }
 },
 },

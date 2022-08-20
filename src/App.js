@@ -24,11 +24,19 @@ function App() {
     )
   }
 
+  const width = {
+    maxWidth: "2000px",
+    margin: "0 auto",
+  };
+
+
   return (
     <AnimatePresence>
       <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}}>
+      <NavBar />
+        <div style={width}>
          <main className="bg-hero-pattern bg-cover bg-no-repeat bg-center overflow-x-hidden h-auto w-auto transition-all">
-          <NavBar />
+          
           <Hero />
 
           <div className="invisible xl:visible fixed bottom-1 right-1 group scale-50 group translate-x-12 translate-y-12 z-50">
@@ -39,14 +47,12 @@ function App() {
           </div>
         </main>
 
-        <div className="z-20">
         <Projects />
-        </div>
 
         <ParallaxProvider>
           <ParallaxBox />
         </ParallaxProvider>
-
+        </div>
         <Footer />
       </motion.div>
     </AnimatePresence>

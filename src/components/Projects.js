@@ -9,7 +9,7 @@ export const Projects = () => {
 
     const ProjectButton = () => {
         return (
-        <div className="grid items-start justify-center">
+        <div className="flex justify-center items-center w-auto">
         <div className="relative m-4">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 to-orange-600 rounded-lg blur"></div>
                 <button className="relative px-7 py-6 bg-indigo-800 rounded-lg leading-none flex divide-x-2 divide-gray-400 mx-0 items-center">
@@ -32,7 +32,7 @@ export const Projects = () => {
             <div className="flex flex-col xl:flex-row justify-around xl:ml-8">
                 <div className="relative m-6 xl:w-3/5 xl:flex">
                     <div className="absolute -inset-3 bg-gradient-to-r from-purple-400 to-orange-600 rounded-lg blur"></div>
-                    <img className="relative xl:h-half-screen xl:w-full" src={unitimg} alt="unitimg" />
+                    <img className="relative xl:h-half-screen max-h-128 xl:w-full" src={unitimg} alt="unitimg" />
                 </div>
 
                 <div className="flex flex-col p-6 mx-12 my-4 bg-white bg-opacity-30 rounded-md shadow-xl grow self-stretch text-center text-orange-100">
@@ -57,7 +57,7 @@ export const Projects = () => {
             <div className="flex flex-col xl:flex-row justify-around xl:ml-8">
                 <div className="relative m-6 xl:w-3/5 xl:flex">
                     <div className="absolute -inset-3 bg-gradient-to-r from-purple-400 to-orange-600 rounded-lg blur"></div>
-                    <img className="relative xl:h-half-screen xl:w-full" src={shopifastImg} alt="shopiImg" />
+                    <img className="relative xl:h-half-screen max-h-128 xl:w-full" src={shopifastImg} alt="shopiImg" />
                 </div>
 
                 <div className="flex flex-col p-6 mx-12 my-4 bg-white bg-opacity-30 rounded-md shadow-xl grow self-stretch text-center text-orange-100">
@@ -74,7 +74,7 @@ export const Projects = () => {
     }
 
     return (
-        <div className="max-h-screen mt-6 mb-12">
+        <div className="flex mt-6 mb-12 w-auto justify-center items-center">
         <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 2}}>
             <ProjectButton />
             <Shopifast />
